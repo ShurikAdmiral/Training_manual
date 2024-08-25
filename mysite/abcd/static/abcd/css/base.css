@@ -1,0 +1,79 @@
+body {
+background-size: 100% 1500px;
+background-image: url('../img/background.jpg');
+
+background-repeat: no-repeat;
+font-family: Impact;
+}
+
+.hat {
+background-color:aqua;
+height: 75px;
+position: absolute;
+top: 0px;
+left: 0px;
+width: 100%;
+
+} 
+
+.hat img{
+    width: 70px;
+    height: 50px;
+}
+
+nav {
+position: absolute;
+left: 100px;
+top: 20px;
+}
+
+a {
+margin: 20px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 110%;
+color: black;
+}
+
+.film1 img{
+width: 300px;
+height: 400px;
+position: absolute;
+top: 250px;
+left: 100px;
+}
+
+.film2 img{
+width: 300px;
+height: 400px;
+position: absolute;
+top: 800px;
+left: 750px;
+}
+
+.film1 h2{
+position: absolute;
+top: 230px;
+left: 420px;
+
+}
+
+.film1 p1{
+position: absolute;
+top: 280px;
+left: 420px;
+
+}
+
+.film2 h2{
+position: absolute;
+top: 780px;
+left: 580px;
+
+}
+
+.film2 p1{
+position: absolute;
+top: 830px;
+left:275px;
+
+}

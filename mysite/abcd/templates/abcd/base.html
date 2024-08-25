@@ -6,8 +6,21 @@
          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
    <meta http-equiv="X-UA-Compatible" content="ie=edge">
    <title>{%block title%} {%endblock%}</title>
+   {%load static%}
+   <link rel='stylesheet' type='text/css' href="{%static 'abcd/css/base.css'%}">
 </head>
 <body>
+   <div class="hat">
+      <img src="{%static 'abcd/img/logo.jpg'%}">
+      <nav>
+         <a href="/">
+            Домой
+         </a>
+         <a href="/admin">
+            Вход
+         </a>
+      </nav>
+   </div>
    {%block content%} {%endblock%}
 
 </body>
